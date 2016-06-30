@@ -27,6 +27,7 @@ var dayModule = (function () {
 
   function Day (data) {
     // for brand-new days
+    console.log(data);
     this.number = 0;
     this.hotel = null;
     this.restaurants = [];
